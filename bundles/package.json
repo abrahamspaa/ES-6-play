@@ -1,0 +1,21 @@
+{
+  "name": "ES-6-play",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browserify": "browserify ./source/entry.js -o ./bundle.js",
+    "webpack": "webpack ./source/entry.js bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^14.0.0",
+    "jspm": "^0.16.51",
+    "live-server": "^1.2.0",
+    "lodash": "^4.17.4",
+    "webpack": "^1.14.0"
+  }
+}
